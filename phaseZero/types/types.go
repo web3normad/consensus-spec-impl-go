@@ -25,15 +25,3 @@ type BLSSignature Bytes96
 
 
 
-// // Domain Types
-// var (
-// 	DOMAIN_BEACON_PROPOSER      DomainType = [4]byte{0x00, 0x00, 0x00, 0x00}
-// 	DOMAIN_BEACON_ATTESTER      DomainType = [4]byte{0x01, 0x00, 0x00, 0x00}
-// 	DOMAIN_RANDAO               DomainType = [4]byte{0x02, 0x00, 0x00, 0x00}
-// 	DOMAIN_DEPOSIT              DomainType = [4]byte{0x03, 0x00, 0x00, 0x00}
-// 	DOMAIN_VOLUNTARY_EXIT       DomainType = [4]byte{0x04, 0x00, 0x00, 0x00}
-// 	DOMAIN_SELECTION_PROOF      DomainType = [4]byte{0x05, 0x00, 0x00, 0x00}
-// 	DOMAIN_AGGREGATE_AND_PROOF  DomainType = [4]byte{0x06, 0x00, 0x00, 0x00}
-// 	DOMAIN_APPLICATION_MASK     DomainType = [4]byte{0x01, 0x00, 0x00, 0x00}
-// )
-

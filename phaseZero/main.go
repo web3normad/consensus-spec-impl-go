@@ -13,7 +13,7 @@ func main() {
 	var root types.Root
 	var signature types.BLSSignature
 
-	// Example: Assigning values
+	// Assigning values
 	copy(root[:], []byte("example_merkle_root_256_bit"))
 	copy(signature[:], []byte("example_bls_signature_96_bytes"))
 
@@ -21,7 +21,7 @@ func main() {
 	fmt.Printf("Root: %x\n", root)
 	fmt.Printf("Signature: %x\n", signature)
 
-	// Using constants from the constants package
+	// Print command for constants
 	fmt.Printf("UINT64_MAX: %d\n", constants.UINT64_MAX)
     fmt.Printf("UINT64_MAX_SQRT: %d\n", constants.UINT64_MAX_SQRT)
     fmt.Printf("GENESIS_SLOT: %d\n", constants.GENESIS_SLOT)
